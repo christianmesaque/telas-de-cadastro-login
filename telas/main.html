@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main-box">
+        <section class="login-section">
+            <img src="/assets/logo.png">
+            <h1 class="main-title">Bem-Vindo de volta!</h1>
+            <p class="main-par">Acesse sua conta agora mesmo.</p>
+            <a href="/telas/login.html">
+            <button class="button-main">Entrar</button>
+            </a>
+        </section>
+
+        <section class="title-form">
+        <h2 class="title-register">Crie sua conta</h2>
+        <p class="par-register">preencha os campos abaixo</p>
+    
+        <form>
+            <div class="user-box">
+                <label>
+                    <img class="icon-user" src="/assets/do-utilizador.svg">Entrar:
+                </label>
+                <input type="text" name="nome" autocomplete="off" required>
+            </div>
+
+            <div class="user-box">
+                <label>
+                    <img class="icon-email" src="/assets/envelope.svg">Email:
+                </label>
+                <input type="email" name="email" autocomplete="off" required>
+            </div>
+
+            <div class="user-box">
+                <label>
+                    <img class="icon-password" src="/assets/lock.svg">Senha:
+                </label>
+                <input type="password" name="senha" required>
+            </div>
+
+            <button class="button-form" type="submit">Cadastrar</button>
+        </form>
+        </section>
+    </div>
+</body>
+</html>

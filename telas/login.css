@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #272323;
+}
+
+.box-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+}
+
+.elements {
+    display: flex; 
+    flex-direction: column;
+}
+
+img {
+    width: 70%;
+}
+
+form {
+    background-color: #0f0d0d;
+    border-radius: 20px;
+    width: 480px;
+    height: 475px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+label {
+    position: absolute;
+    padding: 10px 0;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    pointer-events: none;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 90px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.img-box {
+    width: 5%;
+    padding: 5px 0;
+}
+
+a {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;   
+    color: #ff0043;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: .5s;
+}
+
+a:hover {
+    text-shadow: 0 15px 25px #ff0043;
+}
+
+.link-1 {
+    margin-right: 250px;
+}
+
+button {
+    width: 350px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff0043;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 5px #ff0043, 0 0 25px #ff0043;
+}
